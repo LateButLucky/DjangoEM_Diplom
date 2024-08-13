@@ -52,3 +52,9 @@ docker-compose exec web python manage.py migrate
 
 ## Остановка проекта
 
+Для остановки проекта выполните:
+
+```bash
+docker-compose down
+```
+
