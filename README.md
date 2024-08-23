@@ -46,7 +46,7 @@ docker-compose up --build
 5. Примените миграции:
 
 ```bash
-docker-compose exec web python manage.py migrate
+docker-compose exec app python manage.py migrate
 ```
 6. Проект будет доступен по адресу http://localhost:8000
 
